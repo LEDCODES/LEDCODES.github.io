@@ -19,7 +19,7 @@ let isAlive = setInterval(function () {
     if (cactusLeft < 30 && cactusLeft > 0 && dinoTop >= 160) {
         mound.style.animation = "none";
         alert("Game Over. Refresh to play again. Score: "+Math.floor(counter/100));
-        counter=0;
+        counter= 0;
         mound.style.display = "mound 1s infinite linear";
     }else{
         counter++;
@@ -30,3 +30,4 @@ let isAlive = setInterval(function () {
 document.addEventListener("keydown", function (event) {
     jump();
 });
+
