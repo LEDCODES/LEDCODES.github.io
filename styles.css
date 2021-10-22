@@ -3,6 +3,10 @@
     height: 200px;
     border: 1px solid black;
     margin: auto;
+    background-image: url(images/mole\ bg.png);
+    position: relative;
+    background-size: 600px 200px;
+    /* background: no-repeat; */
 }
 
 #mole {
